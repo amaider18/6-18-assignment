@@ -135,5 +135,7 @@ console.log (isHotOutside = true) && (moneyInPocket > 10.50)
 
 // // Write a function that combines the values of a checking account and savings account, for someone who wants to know the total value of their bank account. 
 
-
+function addMoney (checkingAccount, savingsAccount) {
+    return checkingAccount + savingsAccount;
+}
 
